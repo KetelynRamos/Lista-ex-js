@@ -10,28 +10,28 @@ console.log(carro.marca);
 
 //ex2 Crie um objeto pessoa com as propriedades nome, idade e profissao. Exiba a profissão da pessoa no console.
 let pessoa = {
-    nome: "pedro",
-    idade: "17",
-    profissao: "gay"
+    nome: "Ana",
+    idade: "24",
+    profissao: "Dentista"
 }
 console.log(pessoa.profissao);
 
 
 //ex3 Crie um objeto livro com as propriedades titulo, autor e paginas. Exiba o título do livro no console.
 let livro = {
-    titulo: "sim",
-    autor: "pedro",
-    pagina: "576"
+    titulo: "Uma vida pequena",
+    autor: "Hanya Yanagihara",
+    pagina: "784"
 }
 console.log(livro.titulo);
 
 
 //ex4 Crie um objeto endereco com as propriedades rua, numero, cidade e estado. Exiba a cidade no console.
 let endereco = {
-    rua: "omega",
-    numero: "17",
-    cidade: "sergipe",
-    estado: "maranhao"
+    rua: "Aleatoria",
+    numero: "000",
+    cidade: "Curitiba",
+    estado: "Paraná"
 }
 console.log(endereco.cidade);
 
@@ -39,10 +39,10 @@ console.log(endereco.cidade);
 //ex5  Crie um objeto aluno com as propriedades nome, matricula, curso e ano. Exiba o ano do aluno no console.
 
 let aluno = {
-    nome: "omega",
+    nome: "Andre",
     matricula: "123214",
     curso: "docente",
-    ano: "2025"
+    ano: "2024"
 }
 console.log(aluno.ano);
 
@@ -51,9 +51,9 @@ console.log(aluno.ano);
 //Exiba o resultado do método desconto no console.
 
 let produto = {
-    nome: "cebola",
+    nome: "Cebola",
     preco: 20.00,
-    categoria: "fruto"
+    categoria: "Fruto"
 }
 function desconto(preco){
     var precodesc = preco * 0.90;
@@ -66,10 +66,10 @@ console.log(desconto(produto.preco));
  //Exiba o nome do diretor no console.
 
 let filme = {
-    titulo: "borderlands",
-    ano: 1989,
+    titulo: "Qualquer",
+    ano: 0000,
     diretor:{
-        nome: "pedro",
+        nome: "Mateus",
         idade: 34
     }
 };
